@@ -201,3 +201,34 @@ li .logo {
   color: white;
   background: blue;
 }
+
+.design-separator {
+  grid-area: 12 / 1 / 13 / 13;
+  font-size: 2rem;
+  color: white;
+  background: black;
+  height: 200px;
+}
+
+.slide-4 {
+  height: 300px;
+}
+
+.item-17 {
+  grid-area: 13 / 1 / 14 / 5;
+  font-size: 2rem;
+  color: white;
+  background: blue;
+}
+.item-18 {
+  grid-area: 13 / 5 / 14 / 9;
+  font-size: 2rem;
+  color: white;
+  background: rgb(97, 196, 16);
+}
+.item-19 {
+  grid-area: 13 / 9 / 14 / 13;
+  font-size: 2rem;
+  color: white;
+  background: rgb(97, 35, 81);
+}
