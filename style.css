@@ -125,11 +125,11 @@ li .logo {
     justify-content: center;
     align-items: center;
     margin: 20px 10px;
+    border-radius: 7px;
 }
 
 .latest-divider {
     grid-area: 6/ 1 / 7 / 13;
-    background: green;
     height: 200px;
     font-size: 2rem;
     display: flex;
@@ -139,7 +139,7 @@ li .logo {
 
 .ethical-divider {
     grid-area: 7/ 1 / 8 / 13;
-    background: red;
+    background: rgb(61, 61, 61);
     height: 700px;
     font-size: 2rem;
     display: flex;
@@ -149,89 +149,146 @@ li .logo {
 
 .person-divider {
     grid-area: 8/ 1 / 9 / 13;
-    background: white;
+    background: rgb(94, 93, 93);
     height: 200px;
     font-size: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 10px;
 }
 
 .slide-3 {
     height: 300px;
+    margin: 10px;
 }
 
 .item-11 {
     grid-area: 9 / 1 / 10 / 7;
     font-size: 2rem;
     color: white;
-    background: blue;
+    background: rgb(201, 201, 201);
 }
 
 .item-12 {
     grid-area: 9 / 7 / 10 / 13;
     font-size: 2rem;
     color: white;
-    background: rgb(30, 255, 0);
+    background: rgb(172, 172, 172);
 }
 
 .item-13 {
     grid-area: 10 / 1 / 11 / 7;
     font-size: 2rem;
     color: white;
-    background: rgb(255, 0, 76);
+    background: rgb(201, 201, 201);
 }
 
 .item-14 {
     grid-area: 10 / 7 / 11 / 13;
     font-size: 2rem;
     color: white;
-    background: rgb(0, 247, 255);
+    background: rgb(172, 172, 172);
 }
 
 .item-15 {
     grid-area: 11 / 1 / 12 / 7;
     font-size: 2rem;
     color: white;
-    background: rgb(255, 0, 0);
+    background: rgb(201, 201, 201);
+    ;
 }
 
 .item-16 {
     grid-area: 11 / 7 / 12 / 13;
     font-size: 2rem;
     color: white;
-    background: blue;
+    background: rgb(172, 172, 172);
+}
+
+.link-separator {
+    grid-area: 12 / 1 / 13 / 13;
+    font-size: 1rem;
+    color: black;
+    background: white;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .design-separator {
-    grid-area: 12 / 1 / 13 / 13;
-    font-size: 2rem;
+    grid-area: 13/1/14/13;
+    background: rgb(97, 97, 97);
     color: white;
-    background: black;
+    font-size: 2rem;
     height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
 }
 
 .slide-4 {
     height: 300px;
+    margin: 10px;
 }
 
 .item-17 {
-    grid-area: 13 / 1 / 14 / 5;
+    grid-area: 14 / 1 / 15 / 5;
     font-size: 2rem;
     color: white;
     background: blue;
 }
 
 .item-18 {
-    grid-area: 13 / 5 / 14 / 9;
+    grid-area: 14 / 5 / 15 / 9;
     font-size: 2rem;
     color: white;
     background: rgb(97, 196, 16);
 }
 
 .item-19 {
-    grid-area: 13 / 9 / 14 / 13;
+    grid-area: 14 / 9 / 15 / 13;
     font-size: 2rem;
     color: white;
     background: rgb(97, 35, 81);
+}
+
+.slide-5 {
+    height: 300px;
+    margin: 10px;
+}
+
+.item-20 {
+    grid-area: 15/1/16/5;
+    background: yellow;
+    font-size: 1rem;
+    color: white;
+}
+
+.item-21 {
+    grid-area: 15/5/16/13;
+    background: lightcoral;
+    font-size: 1rem;
+    color: white;
+}
+
+.article-separator {
+    grid-area: 16/1/17/13;
+    background: white;
+    font-size: 1rem;
+    color: black;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    grid-area: 17/1/18/13;
+    background: rgb(114, 112, 112);
+    font-size: 1.5rem;
+    color: black;
+    height: 350px;
 }
