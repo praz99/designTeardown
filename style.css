@@ -1,0 +1,32 @@
+.navbar {
+    background-color: gray;
+    height: 120px;
+}
+
+.navList {
+    display: flex;
+    list-style-type: none;
+    height: 100%;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0;
+}
+
+li .logo {
+    width: 200px;
+}
+
+.flex-item {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-anchor {
+    text-decoration: none;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
