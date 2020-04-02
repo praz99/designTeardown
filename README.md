@@ -12,7 +12,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://praz99.github.io/designTeardown/)
+[Live Demo Link](https://raw.githack.com/praz99/designTeardown/workingBranch/index.html)
 
 ## Getting Started
 
